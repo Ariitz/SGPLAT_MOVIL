@@ -1,0 +1,80 @@
+# NativeScript
+hooks/
+node_modules/
+platforms/
+
+# NativeScript Template
+*.js.map
+*.js
+!webpack.config.js
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+.idea
+.cloud
+.project
+tmp/
+typings/
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+
+
+# -- Editores -----------------------------------------
+# vim
+.*.sw[a-z]
+*.un~
+Session.vim
+.netrwhist
+ 
+# eclipse
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.externalToolBuilders/
+*.launch
+.buildpath
+
+# sublimetext
+/*.sublime-project
+*.sublime-workspace
+
+# netbeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# intellij
+.idea/
+target/
+.project
+*.iml
